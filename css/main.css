@@ -1,0 +1,70 @@
+/* custom styles for checklist */
+
+.ch-el {
+	/*background: grey;*/
+	position: relative;
+}
+.ch-el ul {
+	
+
+}
+
+.ch-header {
+	display:block;
+	background: #870A36 ;
+	color: #FFFFFF;
+	padding: 8px;margin-bottom:10px;
+}
+.ch-link {
+
+	text-decoration: underline;
+}
+
+
+
+.ch-absolute {
+
+	background: #f0f0f0;
+	/*width:458px;*/
+	width:100%;
+	position:absolute;
+	
+	border:1px solid orange;
+	display:none;
+	
+	-webkit-box-shadow: 2px 3px 2px 0px rgba(50, 50, 50, 0.55);
+	-moz-box-shadow:    2px 5px 3px 0px rgba(50, 50, 50, 0.55);
+	box-shadow:         2px 5px 3px 0px rgba(50, 50, 50, 0.55);
+}
+.ch-absolute p {
+	padding-left:10px;
+	padding-right: 10px;
+}
+.ch-absolute-header {
+	
+	display:block;
+	background: #e17d00 ;
+	color: #FFFFFF;
+	padding: 8px;margin-bottom:10px;
+
+}
+
+.ch-close {
+ 	
+ 	position: absolute;
+ 	right:10px;
+ 	top:8px;
+	color:#FFFFFF;
+ 	cursor: pointer;;
+
+}
+
+.ch-tip {
+	position:absolute;
+	display: block;
+	width:8px;
+	height:6px;
+	background: url('../img/tip.gif');
+	bottom:-6px;
+	left: 15px;
+}
