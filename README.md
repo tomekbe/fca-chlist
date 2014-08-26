@@ -10,6 +10,8 @@ limited_checklist.html
 					 /img/popup-icon.gif
 					 	  tip.gif
 					 /js/main.js
+           /service/full_checklist_jsonp_ie.php
+                    limited_checklist_jsonp_ie.php
 
 
 
@@ -124,3 +126,6 @@ Is pulled from;
 http://view-it.co.uk/services/fca/limited_checklist_jsonp_ie.php?callback=JSON_CALLBACK
 
 http://view-it.co.uk/services/fca/full_checklist_jsonp_ie.php?callback=JSON_CALLBACK
+
+
+It is also supplied in service folder.
